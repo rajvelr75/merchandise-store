@@ -20,17 +20,17 @@ export const WhyChooseUs = () => {
   ];
 
   return (
-    <section className="bg-white py-12 px-6 sm:px-8 md:px-12 lg:px-24 xl:px-32 font-outfit">
+    <section className="bg-white py-12 px-6 sm:px-8 md:px-12 lg:px-24 xl:px-32 font-outfit lg:py-28">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
-        <h2 className="text-[#10294b] text-2xl sm:text-3xl md:text-4xl font-semibold text-center mb-12">
+        <h2 className="text-[#10294b] text-2xl sm:text-3xl md:text-4xl font-semibold text-center mt-[-30px]">
           Why Choose Us?
         </h2>
 
         {/* Green border box */}
-        <div className="relative border border-[#0a9345] rounded-[40px] px-6 py-20 md:py-16 max-w-5xl mx-auto mt-60">
+        <div className="relative border border-[#0a9345] rounded-[40px] px-6 py-20 md:py-16 lg:py-20 max-w-5xl mx-auto mt-60">
           {/* Cards */}
-          <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-6 lg:gap-10 mt-[-220px] mb-2">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-6 lg:gap-10 mt-[-220px] mb-2 lg:ml-12">
             {cards.map((card, index) => (
               <div
                 key={index}
@@ -51,8 +51,7 @@ export const WhyChooseUs = () => {
             ))}
           </div>
 
-          {/* Green Circles aligned under cards */}
-          <div className="absolute bottom-[-38px] w-full flex flex-col sm:flex-row justify-around items-center gap-4 sm:gap-0 px-4 sm:px-10 md:px-20">
+          <div className="hidden sm:flex absolute bottom-[-30px] w-full flex-col sm:flex-row justify-around items-center gap-4 sm:gap-0 px-4 sm:px-10 md:px-20">
             {[0, 1, 2].map((index) => (
               <div key={index} className="relative w-[50px] h-[50px] sm:w-[60px] sm:h-[60px]">
                 <div className="absolute inset-0 bg-[#f4f1eb] rounded-full"></div>

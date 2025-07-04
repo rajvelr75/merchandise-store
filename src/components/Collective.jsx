@@ -2,7 +2,7 @@ import React from "react";
 
 export const GetInvolved = () => {
   return (
-    <section className="bg-white py-12 px-6 sm:px-8 md:px-12 lg:px-24 xl:px-32 font-outfit">
+    <section className="bg-white py-12 px-6 sm:px-8 md:px-12 lg:px-24 xl:px-32 font-outfit lg:py-16">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-[#10294b] text-2xl sm:text-3xl md:text-4xl font-semibold mb-12">
           Get Involved with The Collective

@@ -129,7 +129,7 @@ const MobileNavLink = ({ href, children, onClick }) => {
     <a
       href={href}
       onClick={onClick}
-      className="text-white text-xl font-medium py-3 px-4 rounded transition-colors duration-200 hover:bg-[#2a4d75] active:bg-[#1e3a5a]"
+      className="text-white text-lg sm:text-xl font-light font-raleway py-2.5 px-4 rounded transition-colors duration-200 hover:bg-[#2a4d75] active:bg-[#1e3a5a]"
     >
       {children}
     </a>
@@ -138,7 +138,7 @@ const MobileNavLink = ({ href, children, onClick }) => {
 
 // Reusable AuthButton component
 const AuthButton = ({ variant = 'primary', children, fullWidth = false }) => {
-  const baseClasses = "px-4 py-2 sm:px-5 sm:py-2.5 rounded-lg font-semibold text-sm sm:text-base transition-all duration-200";
+const baseClasses = "px-3 py-1.5 sm:px-4 sm:py-2 rounded-md font-medium text-xs sm:text-sm transition-all duration-200";
   const primaryClasses = "bg-[#a38e75] text-white hover:bg-[#8a7862] active:bg-[#786652] hover:shadow-md";
   const secondaryClasses = "bg-white text-[#10294a] hover:bg-gray-100 active:bg-gray-200 hover:shadow-md";
   const widthClass = fullWidth ? "w-full" : "";

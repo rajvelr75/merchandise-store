@@ -3,7 +3,7 @@ export const Footer = () => {
     <footer className="bg-[#193f64] text-white py-12 px-4 md:px-10 font-[Source_Sans_Pro]">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between gap-12">
         {/* Logo Section */}
-        <div className="flex-shrink-0 flex justify-center lg:justify-start">
+        <div className="flex-shrink-0 flex justify-center lg:justify-start lg:ml-20">
           <img
             src="https://c.animaapp.com/uSmv2gID/img/srmist-logo-hwite-3--1@2x.png"
             alt="SRMIST Logo"
