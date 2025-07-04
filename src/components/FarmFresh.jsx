@@ -1,8 +1,6 @@
-import React from "react";
-
 export const SRMFarmFresh = () => {
   return (
-    <section className="bg-white py-12 px-6 sm:px-8 md:px-12 lg:px-24 xl:px-32 font-outfit lg:mt-16">
+    <section className="bg-white py-12 px-6 sm:px-8 md:px-12 lg:px-24 xl:px-32 font-outfit lg:mt-4">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-10 lg:gap-14">
         {/* Left Content */}
         <div className="w-full lg:w-1/2">
@@ -55,7 +53,7 @@ export const SRMFarmFresh = () => {
           <img
             src="https://c.animaapp.com/uSmv2gID/img/image-35.png"
             alt="Basket of Vegetables"
-            className="w-full max-w-[300px] sm:max-w-[360px] md:max-w-[400px] lg:max-w-[450px] object-contain rounded-lg shadow-md"
+            className="w-full max-w-[300px] sm:max-w-[360px] md:max-w-[400px] lg:max-w-[450px] object-contain  "
           />
         </div>
       </div>
