@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { Navbar } from './components/Navbar'
+import { HeroSection } from './components/Hero'
+import { MoreThanMerch } from './components/Intro'
+import { ShopByCategory } from './components/Category'
+import { TrendingNow } from './components/Trending'
+import { WhyChooseUs } from './components/Choose'
+import { SRMFarmFresh } from './components/FarmFresh'
+import { GetInvolved } from './components/Collective'
+import { Footer } from './components/Footer'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Navbar />
+    <HeroSection />
+    <MoreThanMerch />
+    <ShopByCategory />
+    <TrendingNow />
+    <WhyChooseUs />
+    <SRMFarmFresh />
+    <GetInvolved />
+    <Footer />
+    </>
+  )
 }
 
-export default App;
+export default App
