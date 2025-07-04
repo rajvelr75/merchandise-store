@@ -1,5 +1,3 @@
-import { useState, useEffect } from 'react';
-
 export const TrendingNow = () => {
   const products = [
     {
@@ -51,7 +49,7 @@ export const TrendingNow = () => {
           <div className="relative">
             {/* View More Link */}
             <div className="flex justify-end mb-6">
-              <a href="#" className="font-medium text-[#10294b] text-xl sm:text-2xl hover:underline hover:text-[#4b1110] transition-colors duration-200">
+              <a href="https://www.srmist.edu.in/" className="font-medium text-[#10294b] text-xl sm:text-2xl hover:underline hover:text-[#4b1110] transition-colors duration-200">
                 View More →
               </a>
             </div>
